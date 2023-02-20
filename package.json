@@ -8,7 +8,8 @@
     "b64": "./bin/b64.js"
   },
   "scripts": {
-    "dev": "node ./bin/b64.js"
+    "dev": "node ./bin/b64.js",
+    "lint": "eslint --ext .js"
   },
   "keywords": [
     "base64",
@@ -28,5 +29,12 @@
     "clipboardy": "3.0.0",
     "commander": "10.0.0",
     "js-base64": "3.7.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0"
   }
 }
