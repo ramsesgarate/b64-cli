@@ -1,22 +1,22 @@
 #!/usr/bin/env node
 
-import { Command } from 'commander';
-import chalk from 'chalk';
-import { isValid } from 'js-base64';
+import { Command } from 'commander'
+import chalk from 'chalk'
+import { isValid } from 'js-base64'
 
-const program = new Command();
+const program = new Command()
 
-program.argument('<str>', 'String to validate').parse(process.argv);
+program.argument('<str>', 'String to validate').parse(process.argv)
 
-const [str] = program.args;
+const [str] = program.args
 
-const isValidBase64 = isValid(str);
+const isValidBase64 = isValid(str)
 const validationText = isValidBase64
   ? chalk.green('valid')
-  : chalk.red('invalid');
+  : chalk.red('invalid')
 
 const output = `
 Base64 is ${validationText}
-`;
+`
 
-console.log(output);
+console.log(output)
