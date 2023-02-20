@@ -8,7 +8,8 @@
     "b64": "./bin/b64.js"
   },
   "scripts": {
-    "dev": "node ./bin/b64.js"
+    "dev": "node ./bin/b64.js",
+    "test": "vitest run --coverage"
   },
   "keywords": [
     "base64",
