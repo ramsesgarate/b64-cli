@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-import { Command } from 'commander';
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const { version } = require('../package.json');
+import { Command } from 'commander'
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+const { version } = require('../package.json')
 
-const program = new Command();
+const program = new Command()
 
 program
   .name('b64')
@@ -16,6 +16,6 @@ program
   .command('encode', 'Encode in base64')
   .alias('e')
   .command('decode', 'Decode base64')
-  .alias('d');
+  .alias('d')
 
-program.parse(process.argv);
+program.parse(process.argv)

@@ -8,8 +8,7 @@
     "b64": "./bin/b64.js"
   },
   "scripts": {
-    "dev": "node ./bin/b64.js",
-    "lint": "eslint --ext .js"
+    "dev": "node ./bin/b64.js"
   },
   "keywords": [
     "base64",
