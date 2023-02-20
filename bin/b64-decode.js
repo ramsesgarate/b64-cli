@@ -20,9 +20,7 @@ ${chalk.blue(str)} decode to String ${strPretty}
   `
   clipboardy.writeSync(strDecode)
 } else {
-  output = `
-Base64 is ${chalk.red('invalid')}
-`
+  output = `Base64 is ${chalk.red('invalid')}`
 }
 
 console.log(output)
