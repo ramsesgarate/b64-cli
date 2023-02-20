@@ -1,0 +1,32 @@
+{
+  "name": "@rsgarate/b64-cli",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Validate, encode and decode strings in Base64 - cross platform",
+  "author": "'Ramses Garate <'rsgarate@gmail.com'>",
+  "bin": {
+    "b64": "./bin/b64.js"
+  },
+  "scripts": {
+    "dev": "node ./bin/b64.js"
+  },
+  "keywords": [
+    "base64",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramsesgarate/b64-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ramsesgarate/b64-cli/issues"
+  },
+  "homepage": "https://github.com/ramsesgarate/b64-cli#readme",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "5.2.0",
+    "clipboardy": "3.0.0",
+    "commander": "10.0.0",
+    "js-base64": "3.7.5"
+  }
+}
