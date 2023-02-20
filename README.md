@@ -6,8 +6,6 @@ Validate, Encode and Decode strings in Base64 - cross platform
 [![js-standard-style][lint-standard-src]][lint-standard-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
-[![Github Actions][github-actions-src]][github-actions-href]
-[![Codecov][codecov-src]][codecov-href]
 
 
 [lint-standard-src]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
@@ -19,8 +17,6 @@ Validate, Encode and Decode strings in Base64 - cross platform
 [npm-downloads-src]: https://img.shields.io/npm/dm/@rsgarate/b64-cli?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@rsgarate/b64-cli
 
-[github-actions-src]: https://img.shields.io/github/workflow/status/ramsesgarate/b64-cli/ci/main?style=flat-square
-[github-actions-href]: https://github.com/ramsesgarate/b64-cli/actions?query=workflow%3Aci
 
 ## Installation
 
