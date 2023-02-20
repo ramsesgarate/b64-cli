@@ -15,8 +15,6 @@ const validationText = isValidBase64
   ? chalk.green('valid')
   : chalk.red('invalid')
 
-const output = `
-Base64 is ${validationText}
-`
+const output = `Base64 is ${validationText}`
 
 console.log(output)
