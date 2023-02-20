@@ -1,6 +1,6 @@
 {
   "name": "@rsgarate/b64-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "description": "Validate, encode and decode strings in Base64 - cross platform",
   "author": "'Ramses Garate <'rsgarate@gmail.com'>",
@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dev": "node ./bin/b64.js",
-    "test": "vitest run --coverage"
+    "test": "vitest run --coverage",
+    "release": "git push --follow-tags && pnpm publish --access=public"
   },
   "keywords": [
     "base64",
